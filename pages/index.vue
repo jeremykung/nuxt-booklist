@@ -1,18 +1,4 @@
 <script setup>
-// import { gsap } from "gsap"
-// import { ScrollTrigger } from "gsap/ScrollTrigger"
-// gsap.registerPlugin(ScrollTrigger)
-
-// gsap.to(".c", {
-//   //   ScrollTrigger: {
-//   //     trigger: ".c",
-//   //     toggleActions: "restart pause none none",
-//   //   },
-//   x: 400,
-//   rotation: 360,
-//   duration: 3,
-// })
-
 if (process.client) {
   //   window.addEventListener("keyup", props.close)
   window.addEventListener("scroll", function () {
